@@ -1,3 +1,7 @@
+# flutter-pi
+A light-weight Flutter Engine Embedder for Raspberry Pi. Inspired by https://github.com/chinmaygarde/flutter_from_scratch.
+Flutter-pi also runs without X11, so you don't need to boot into Raspbian Desktop & have X11 and LXDE load up; just boot into the command-line.
+
 ## 📰 NEWS
 - There's now flutterpi tool to make building the app easier: https://pub.dev/packages/flutterpi_tool
   - Currently only supported on linux at the moment.
@@ -8,10 +12,6 @@
 - The new latest flutter gallery commit for flutter 3.10 is `d77920b4ced4a105ad35659fbe3958800d418fb9`
 - The [gstreamer video player](#gstreamer-video-player) now supports creating players from a raw gstreamer pipeline.
 - The deprecated `omxplayer`-based video player has been removed.
-
-# flutter-pi
-A light-weight Flutter Engine Embedder for Raspberry Pi. Inspired by https://github.com/chinmaygarde/flutter_from_scratch.
-Flutter-pi also runs without X11, so you don't need to boot into Raspbian Desktop & have X11 and LXDE load up; just boot into the command-line.
 
 You can now **theoretically** run every flutter app you want using flutter-pi, including apps using packages & plugins, just that you'd have to build the platform side of the plugins you'd like to use yourself.
 
