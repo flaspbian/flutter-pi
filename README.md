@@ -55,9 +55,7 @@ If you encounter issues running flutter-pi on any of the supported platforms lis
 ### Dependencies
 
 1. ~~Install the engine-binaries~~ (not required anymore, except when using the old method to build the app bundle, see below)
-
     <details>
-
     <summary>Instructions</summary>
 
     - Follow the instructions [in the _flutter-engine-binaries-for-arm_ repo.](https://github.com/ardera/flutter-engine-binaries-for-arm).
